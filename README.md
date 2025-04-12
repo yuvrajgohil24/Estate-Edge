@@ -1,5 +1,5 @@
-![Estate-Edge Logo](/logo.png) Estate-Edge
-==================================================================
+![Estate-Edge Logo](https://raw.githubusercontent.com/yuvrajgohil24/Estate-Edge/main/frontend/public/logo.png) Estate-Edge
+===============================================================================================================================
 
 **Find Real Estate & Get Your Dream Place**
 
@@ -25,7 +25,7 @@ Estate-Edge is a modern real estate web application that enables users to effort
 🚀 Tech Stack
 -------------
 
--   **Frontend**: React.js, Tailwind CSS / SCSS, Material UI
+-   **Frontend**: React.js, SCSS, Material UI
 
 -   **Backend**: Node.js, Express.js
 
@@ -33,9 +33,9 @@ Estate-Edge is a modern real estate web application that enables users to effort
 
 -   **Authentication**: JWT-based secure login
 
--   **Cloud Integration**: AWS S3 (for image uploads)
+-   **Cloud Integration**: Cloudinary (for image uploads)
 
--   **Deployment**: Vercel / Netlify (Frontend), Render / Railway / Heroku (Backend)
+-   **Deployment**: Vercel / Netlify (Frontend), Render (Backend)
 
 * * * * *
 
@@ -53,7 +53,7 @@ Estate-Edge is a modern real estate web application that enables users to effort
 ### Installation
 
 ```
-git clone https://github.com/your-username/estate-edge.git
+git clone https://github.com/yuvrajgohil24/Estate-Edge.git
 cd estate-edge
 npm install
 
@@ -98,14 +98,8 @@ Pull requests are welcome! Feel free to fork the repo and submit your improvemen
 ----------
 
 Developed by **Yuvraj Singh Gohil**\
-Email: <your-email@example.com>\
-Instagram: [@fortune.mindset](https://instagram.com/fortune.mindset)
+Email: <yuvrajgohil1817@gmail.com>\
 
 Have suggestions or feedback? Let's connect!
 
 * * * * *
-
-📄 License
-----------
-
-This project is licensed under the **MIT License**.
