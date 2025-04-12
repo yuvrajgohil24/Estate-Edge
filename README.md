@@ -1,4 +1,4 @@
-![Estate-Edge Logo](https://chatgpt.com/logo-icon.png) Estate-Edge
+![Estate-Edge Logo](/logo.png) Estate-Edge
 ==================================================================
 
 **Find Real Estate & Get Your Dream Place**
