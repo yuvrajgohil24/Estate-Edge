@@ -13,6 +13,7 @@ import messageRoute from './routes/message.route.js';
 dotenv.config();
 const app = express();
 
+const port = process.env.PORT || 8800;
 app.use(cors({ origin: process.env.CLIENT_URL, credentials: true }));
 app.use(express.json());
 app.use(cookieParser());
@@ -28,6 +29,6 @@ app.use("/api/messages", messageRoute);
 //     res.send("This API is working")
 // })
 
-app.listen(8800, () => {
-    console.log("Server is Running at http://localhost:88000");
+app.listen(port, () => {
+    console.log(`Server is Running at http://localhost:${port}`);
 })

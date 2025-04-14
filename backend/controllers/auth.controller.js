@@ -70,6 +70,7 @@ export const login = async (req, res) => {
             httpOnly: true,
             secure: true,
             maxAge: age,
+            sameSite: "None",  // Essential for cross-origin requests
         }).status(200).json(userInfo)
     } catch (error) {
         console.log("Error in login: ", error);

@@ -1,8 +1,14 @@
 import { Server } from "socket.io";
+import dotenv from 'dotenv';
+
+dotenv.config();
+
+const PORT = process.env.SOCKET_PORT || 4000;
 
 const io = new Server({
     cors: {
-        origin: "http://localhost:5173"
+        origin: "https://estate-edge-gilt.vercel.app"
+        // origin: "http://localhost:5173"
     },
 });
 
@@ -46,4 +52,6 @@ io.on("connection", (socket) => {
     });
 });
 
-io.listen("4000");
+io.listen(PORT, () => {
+    console.log(`✅ Socket.IO server listening on port ${PORT}`);
+});
