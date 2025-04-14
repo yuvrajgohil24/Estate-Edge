@@ -7,7 +7,7 @@ const PORT = process.env.SOCKET_PORT || 4000;
 
 const io = new Server({
     cors: {
-        origin: "https://estate-edge-gilt.vercel.app"
+        origin: process.env.CLIENT_URL
         // origin: "http://localhost:5173"
     },
 });
